@@ -1,0 +1,19 @@
+.main {
+  width: 100%;
+  height: calc(100% - 12.8vh);
+  &-title {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: $spacing-base;
+
+    h3 {
+      width: 100%;
+      font-size: $font-size-xl;
+      font-weight: 700;
+      color: $highlighted-text-colour;
+      text-align: center;
+      white-space: normal;
+    }
+  }
+}
